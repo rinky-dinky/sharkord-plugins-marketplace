@@ -1,0 +1,25 @@
+[
+  {
+    "plugin": {
+      "id": "plugin-example",
+      "name": "Plugin Example",
+      "description": "An example plugin to demonstrate the plugin system.",
+      "author": "John Doe",
+      "repo": "https://github.com/johndoe/plugin-example",
+      "logo": "./logo.png",
+      "homepage": "https://example.com/plugin-example",
+      "tags": [],
+      "categories": [],
+      "verified": false
+    },
+    "versions": [
+      {
+        "version": "0.0.1",
+        "downloadUrl": "https://example.com/plugin-example-0.0.1.tar.gz",
+        "checksum": "xyz123abc456def789ghi012jkl345mno678pqr901stu234vwx567yz890",
+        "sdkRange": ">=1.0.0 <2.0.0",
+        "size": 123456
+      }
+    ]
+  }
+]
