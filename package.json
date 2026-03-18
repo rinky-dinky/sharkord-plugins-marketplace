@@ -1,0 +1,28 @@
+{
+  "name": "plugins",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "bun scripts/build-index.ts",
+    "format": "prettier --write \"**/*.ts*\" --config ./.prettierrc.json",
+    "format:check": "prettier --check \"**/*.ts*\" --config ./.prettierrc.json",
+    "lint": "eslint ./src/**/*.ts --ext ts --report-unused-disable-directives",
+    "lint:fix": "eslint ./src/**/*.ts --ext ts --report-unused-disable-directives --fix",
+    "check-types": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@typescript-eslint/eslint-plugin": "^8.46.1",
+    "eslint": "^8.56.0",
+    "eslint-plugin-unused-imports": "^4.1.4",
+    "prettier": "^3.5.3",
+    "prettier-plugin-organize-imports": "^4.1.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "zod": "^4.3.6"
+  }
+}

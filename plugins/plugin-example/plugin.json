@@ -1,0 +1,11 @@
+{
+  "id": "plugin-example",
+  "name": "Plugin Example",
+  "description": "An example plugin to demonstrate the plugin system.",
+  "author": "John Doe",
+  "repo": "https://github.com/johndoe/plugin-example",
+  "logo": "./logo.png",
+  "homepage": "https://example.com/plugin-example",
+  "tags": [],
+  "categories": []
+}
