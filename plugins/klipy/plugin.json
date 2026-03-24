@@ -1,0 +1,10 @@
+{
+  "id": "klipy",
+  "name": "Klipy",
+  "description": "A plugin to share GIFs from Klipy.",
+  "author": "Diogo Martino",
+  "logo": "https://i.imgur.com/LvqJc0W.png",
+  "homepage": "https://github.com/Sharkord/klipy",
+  "tags": [],
+  "categories": []
+}

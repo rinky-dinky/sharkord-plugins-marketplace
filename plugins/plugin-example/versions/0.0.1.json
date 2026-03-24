@@ -1,7 +1,7 @@
 {
   "version": "0.0.1",
-  "downloadUrl": "https://example.com/plugin-example-0.0.1.tar.gz",
-  "checksum": "xyz123abc456def789ghi012jkl345mno678pqr901stu234vwx567yz890",
-  "sdkRange": ">=1.0.0 <2.0.0",
-  "size": 123456
+  "downloadUrl": "https://files.diogomartino.run/public/plugin-example-0.0.1.tar.gz",
+  "checksum": "fdb25ca36a5691c15554f1e854f27f33d1539be2aee9092204e0a19d0009e8d6",
+  "sdkVersion": 1,
+  "size": 1300480
 }
