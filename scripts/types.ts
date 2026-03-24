@@ -16,7 +16,9 @@ const zPlugin = z.object({
   logo: z.url(),
   homepage: z.string().optional(),
   tags: z.array(z.string()).optional(),
-  categories: z.array(z.string()).optional()
+  categories: z.array(z.string()).optional(),
+  verified: z.boolean().default(false),
+  screenshots: z.array(z.url()).optional()
 });
 
 const zPluginVersion = z.object({
