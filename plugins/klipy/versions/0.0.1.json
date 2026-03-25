@@ -1,7 +1,7 @@
 {
   "version": "0.0.1",
-  "downloadUrl": "https://files.diogomartino.run/public/klipy-0.0.1.tar.gz",
-  "checksum": "b11ff9401146b6f105f81dc0c183cc63025e0fab14891c306f6147f9a5804120",
+  "downloadUrl": "https://github.com/Sharkord/klipy/releases/download/v0.0.1/klipy-0.0.1.tar.gz",
+  "checksum": "54ec6ad88d41043812f6592d81f0556492383a0a59cff67d87d6832193c2d83b",
   "sdkVersion": 1,
   "size": 1331200
 }
