@@ -1,0 +1,48 @@
+[
+  {
+    "plugin": {
+      "id": "klipy",
+      "name": "Klipy",
+      "description": "A plugin to share GIFs from Klipy.",
+      "author": "Diogo Martino",
+      "logo": "https://i.imgur.com/LvqJc0W.png",
+      "homepage": "https://github.com/Sharkord/klipy",
+      "tags": [],
+      "categories": [],
+      "verified": true,
+      "screenshots": ["https://i.imgur.com/0f0YHgc.png"]
+    },
+    "versions": [
+      {
+        "version": "0.0.1",
+        "downloadUrl": "https://github.com/Sharkord/klipy/releases/download/v0.0.1/klipy-0.0.1.tar.gz",
+        "checksum": "54ec6ad88d41043812f6592d81f0556492383a0a59cff67d87d6832193c2d83b",
+        "sdkVersion": 1,
+        "size": 1331200
+      }
+    ]
+  },
+  {
+    "plugin": {
+      "id": "music-bot",
+      "name": "Music Bot",
+      "description": "Allows users to stream music to voice channels.",
+      "author": "Diogo Martino",
+      "logo": "https://i.imgur.com/uVBNUK9.png",
+      "homepage": "https://github.com/Sharkord/music-bot",
+      "tags": [],
+      "categories": [],
+      "verified": true,
+      "screenshots": ["https://i.imgur.com/cYA9yTc.png"]
+    },
+    "versions": [
+      {
+        "version": "0.0.1",
+        "downloadUrl": "https://github.com/Sharkord/music-bot/releases/download/v0.0.1/music-bot-0.0.1.tar.gz",
+        "checksum": "20f0a437da4fae75945990d09e655ad74f1992fb2e585a72a60ecba8b18106ec",
+        "sdkVersion": 1,
+        "size": 368640
+      }
+    ]
+  }
+]
