@@ -1,1 +1,11 @@
-
+{
+  "id": "sharkord-soundboard",
+  "name": "Soundboard",
+  "description": "Soundboard plugin for voice calls.",
+  "author": "rinky-dinky",
+  "logo": "https://i.imgur.com/WQBHYh3.png",
+  "homepage": "https://github.com/rinky-dinky/sharkord-soundboard",
+  "screenshots": ["https://i.imgur.com/ABosEBY.png"],
+  "tags": [],
+  "categories": []
+}
