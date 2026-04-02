@@ -105,14 +105,20 @@ for (const pluginId of pluginDirs) {
   );
 }
 
-await fs.writeFile(INDEX_FILE, JSON.stringify(results));
+if (process.env.DRY_RUN) {
+  console.log(
+    `Validation passed for ${results.length} plugins (dry-run, no files written).`
+  );
+} else {
+  await fs.writeFile(INDEX_FILE, JSON.stringify(results));
 
-const prettierBin = path.join(ROOT_DIR, 'node_modules', '.bin', 'prettier');
+  const prettierBin = path.join(ROOT_DIR, 'node_modules', '.bin', 'prettier');
 
-if (!(await fs.exists(prettierBin))) {
-  throw new Error('Prettier is not installed.');
+  if (!(await fs.exists(prettierBin))) {
+    throw new Error('Prettier is not installed.');
+  }
+
+  Bun.spawn(['bun', 'run', 'prettier', '--write', INDEX_FILE]);
+
+  console.log(`Index built successfully with ${results.length} plugins.`);
 }
-
-Bun.spawn(['bun', 'run', 'prettier', '--write', INDEX_FILE]);
-
-console.log(`Index built successfully with ${results.length} plugins.`);
