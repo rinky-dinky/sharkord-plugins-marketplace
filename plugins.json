@@ -1,6 +1,33 @@
 [
   {
     "plugin": {
+      "id": "sharkord-soundboard",
+      "name": "SoundDrop",
+      "description": "Adds a soundboard to voice channels.",
+      "author": "rinky-dinky",
+      "logo": "https://i.imgur.com/WQBHYh3.png",
+      "homepage": "https://github.com/rinky-dinky/sharkord-soundboard",
+      "tags": [],
+      "categories": [],
+      "verified": false,
+      "screenshots": [
+        "https://i.imgur.com/IPnNPGz.jpeg",
+        "https://i.imgur.com/yVj0ewK.jpeg"
+      ]
+    },
+    "versions": [
+      {
+        "version": "0.0.4",
+        "downloadUrl": "https://github.com/rinky-dinky/sharkord-soundboard/releases/download/v0.0.4/sharkord-soundboard-0.0.4.tar.gz",
+        "checksum": "143bfe2da2d99abd54f88a23e169ee86f3893711e4497f3e32dd9cf7eab42110",
+        "sdkVersion": 1,
+        "size": 40960,
+        "timestamp": 1775054959908
+      }
+    ]
+  },
+  {
+    "plugin": {
       "id": "klipy",
       "name": "Klipy",
       "description": "A plugin to share GIFs from Klipy.",
